@@ -9,6 +9,7 @@ hdiutil create -fs 'Case-sensitive Journaled HFS+' -srcfolder ~/aosp aosp.dmg -v
 
 And if you like seeing output, I suggest the -verbose flag. I get frustrated when I can't tell what something is doing. :P
 
+
 2. Show progress when copying large files:
 
 ```
