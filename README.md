@@ -15,9 +15,15 @@ Some tips to make AOSP modifications easier on OS X
   ```
   rsync -aPv ~/srcfolder ~/destinationfolder
   ```
+  
+  Use it like you would cp, but you have added verbose/progress output which is really nice.
 
-Use it like you would cp, but you have added verbose/progress output which is really nice.
+  -a recursively
+  -P progress
+  -v verbose output
 
--a recursively
--P progress
--v verbose output
+3. Install Mac OS X command line tools if you are getting errors related to missing header files:
+
+  ```
+  xcode-select --install
+  ```
