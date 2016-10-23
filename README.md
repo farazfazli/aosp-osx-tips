@@ -33,7 +33,7 @@ Some tips to make AOSP modifications easier on OS X
 4. Fix "Can not find SDK 10.6 at /Developer/SDKs/MacOSX10.6.sdk" related messages:
 
   ```
-  sudo ln -s /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+  sudo ln -s /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk
   ```
   Symlinking does the trick, just symlink whichever version it's complaining about to MacOSX.sdk
   Note: If you don't have any SDK in /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ you will need to install Xcode first!
